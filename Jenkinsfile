@@ -2,7 +2,7 @@ pipeline {
     agent any
     environment {
         GIT_URL = 'git@github.com:jutionck/robot-framework-simple-jenkins.git'
-        BRANCH = 'mainan'
+        BRANCH = 'main'
         ROBOT = '/Library/Frameworks/Python.framework/Versions/3.11/bin/robot'
         CHANNEL = '#training'
     }
